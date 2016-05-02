@@ -8,9 +8,8 @@ public class Porta implements Cloneable {
 	/* Atributos que armazenam altura, 
 	 * largura e se a porta está aberta ou não, respectivamente.
 	 */
-	private double altura = 0.0;
-	private double largura = 0.0;
-	private boolean aberta = false;
+	private double altura, largura;
+	private boolean aberta;
 	
 	/* Construtor que recebe a altura e a largura de uma porta 
 	 * quando esse objeto for criado.
